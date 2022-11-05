@@ -58,8 +58,8 @@ def main():
         print("One of your captains ", cap1, " and ", cap2, " are not in the list")
         return
     
-    left_group_file = open(cap1 + "_group.txt", "w")
-    right_group_file = open(cap2 + "_group.txt", "w")
+    left_group_file = open(cap2 + "_group.txt", "w")
+    right_group_file = open(cap1 + "_group.txt", "w")
 
     write_names_to_file(split_lists[0], left_group_file)
     write_names_to_file(split_lists[1], right_group_file)
